@@ -1,0 +1,206 @@
+.clearfix{
+    clear: both;
+}
+
+.avatar{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar img,
+.img_pub{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.pub_image .card-body{
+    padding: 0 0 1.25rem 0;
+}
+
+.pub_image{
+    margin-bottom: 25px;
+}
+
+.img_pub{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.data-user{
+    line-height: 30px;
+}
+
+.nick_pub{
+    float: right;
+    margin-top: -32px;
+}
+
+.div_img{
+    width: 100%;
+}
+
+.pub_img{
+    width: 100%;
+    height: 300px;
+}
+
+.description{
+    margin: 20px 0 0 20px;
+}
+
+.description p{
+    color: #444;
+}
+
+.description a{
+    color: #444;
+}
+
+.btn-comments{
+    margin: 0 20px;
+}
+
+.likes{
+    padding: 0 5px 0 20px;
+    color: #f90606;
+    font-size: 25px;
+    float: left;
+}
+
+.date_pub{
+    float: right;
+    margin-right: 22px;
+}
+
+.com_detail{
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 70px;
+}
+
+.img_comment_detail{
+    padding: 15px;
+}
+
+.comment{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.comment p{
+    margin-bottom: 0;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.comment .date_pub{
+    margin-right: 0;
+    padding-top: 10px;
+}
+
+.comment .img_pub{
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    height: 28px;
+    width: 28px;
+}
+
+.comment .data-user{
+    margin-bottom: 10px;
+}
+
+.btn-delete{
+    color: #d40e0e;
+    display: block
+}
+
+.btn-delete-pub{
+    color: #d40e0e;
+}
+
+.btn-delete:hover, .btn-delete-pub:hover{
+    color: #ee0c0c;
+}
+
+.btn-edit i{
+    color:rgb(63, 190, 37);
+}
+
+.btn-edit:hover i{
+    color:rgb(62, 214, 31);
+}
+
+.btn-delete i{
+    position: relative;
+    left: 97%;
+    top: 2px;
+}
+
+.count_likes{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-like{
+    cursor: pointer;
+}
+
+.data-user a{
+    color: #5d5959;
+}
+
+.data-profile .container-avatar img{
+    width: 200px;
+    height: 200px;
+}
+
+.data-profile{
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.data-profile .profile-info{
+    float: left;
+    padding: 30px 0 0 30px;
+}
+
+
+.data-profile .profile-info h1{
+    display: block;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.description-inline{
+    display: inline;
+}
+
+.actions{
+    display: inline;
+    margin-left: 20px;
+}
+
+.img-edit{
+    width: 100%;
+    display: block;
+    height: 200px;
+    margin: 20px auto;
+}
+
+@media(width-max: 576px){
+    .data-profile .container-avatar img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .data-profile .profile-info {
+    padding: 0;
+    }
+}
