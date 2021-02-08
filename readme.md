@@ -10,7 +10,7 @@
 * Eliminar
 * Sistema de likes con JS
 * Sistema de comentarios
-* Coniguracion de perfil
+* Configuracion de perfil
 * Listado de publicaciones que diste like
 * Pagina para ver los usuarios
 * Buscador de usuarios (por nick, name y surname)
